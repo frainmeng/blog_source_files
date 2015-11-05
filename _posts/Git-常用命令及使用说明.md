@@ -3,7 +3,11 @@ date: 2015-10-29 17:04:01
 tags: Git
 categories: 项目管理工具
 feature: img/git.jpg
+description: Git简单命令笔记.
 toc: true
+recommend: true
+declaration: true
+comments: true
 ---
 
 

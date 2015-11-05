@@ -1,6 +1,7 @@
 title: 关于
 layout: about
 date: 2015-10-28 14:53:47
+comments: false
 ---
 ### 个人工作生活
 

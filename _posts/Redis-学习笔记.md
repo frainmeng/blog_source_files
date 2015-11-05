@@ -1,10 +1,12 @@
 title: Redis 学习笔记
+date: 2015-11-03 15:30:45
 tags: Redis
 categories: 学习笔记
-comments: true
 feature: img/redis-300dpi.png
 toc: true
-date: 2015-11-03 15:30:45
+recommend: true
+declaration: true
+comments: true
 ---
 
 
@@ -87,16 +89,12 @@ Redis中的Hash类型类似于java中的Map类型，是一个field-value键值�
     如果key应经存在，则进行覆盖，key和value的大小不可超过512M
     
     *   使用格式
-        
             set key value [options]
-
-        常用选项：
-        
-        || **选项** || **说明** ||
-        || `nx` || key存在时执行失败 ||
-        || `xx` || key不存在时执行失败 ||
-
-
+		常用选项：		
+		|选项|说明|
+		|------|--------------------|
+		| `nx` | key存在时执行失败  |
+		| `xx` | key不存在时执行失败|
     *   ex
             
             set mykey myvalue
@@ -132,8 +130,6 @@ Redis中的Hash类型类似于java中的Map类型，是一个field-value键值�
 1.  `getset`
     
     返回原key的值，并设置新的值
-
-
     *   使用格式
         
             getset key newvalue

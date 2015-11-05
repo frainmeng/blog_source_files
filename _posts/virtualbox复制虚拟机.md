@@ -1,10 +1,13 @@
 title: virtualbox复制虚拟机
+date: 2015-11-04 10:37:34
 tags: virtualbox
 categories: linux
-comments: true
 feature: /img/virtualbox_oralce_001.jpg
+description: 如何复制Virtualbox中的虚拟机.
 toc: true
-date: 2015-11-04 10:37:34
+recommend: true
+declaration: true
+comments: true
 ---
 
 因为需要两台一样的linux机器进行测试，而我的virtualbox中已经装了一个centos的虚机，现在想要clone这样一台虚拟机，就省去了重新安装和配置的麻烦。
